@@ -109,6 +109,7 @@ public class HorizontalScrollview extends ViewGroup {
             case MotionEvent.ACTION_MOVE:
                 int deltaX = x-lastX;
                 int deltaY = y-lastY;
+                //横向滑动
                 if(Math.abs(deltaX)>Math.abs(deltaY)){
                     intercept = true;
                 }
@@ -227,4 +228,5 @@ public class HorizontalScrollview extends ViewGroup {
     public LayoutParams generateLayoutParams(AttributeSet attrs) {
         return new MarginLayoutParams(getContext(),attrs);
     }
+
 }
