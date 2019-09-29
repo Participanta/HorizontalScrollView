@@ -5,5 +5,5 @@
 
 Demo:
 
-![image](https://github.com/YangRT/HorizontalScrollView/edit/master/README.md)
+![image](https://github.com/YangRT/HorizontalScrollView/blob/master/demo/demo.gif)
 
